@@ -1,0 +1,157 @@
+Claro, aquí tienes un análisis de las funciones presentes en tu código, junto con una breve descripción de lo que hace cada una. Puedes usar estas descripciones para agregar comentarios en tu archivo:
+
+1. exportarGastos
+
+:
+
+Exporta los gastos de un chat específico a un archivo Excel (.xlsx) y ejecuta un callback con la ruta del archivo generado.
+
+2. añadirgasto
+
+:
+
+Inicia el proceso de añadir un gasto solicitando al usuario el nombre del grupo y el monto, y luego llama a mostrarCategoriasOCrearNueva
+
+.
+
+3. mostrarCategoriasOCrearNueva
+
+:
+
+Muestra las categorías existentes para que el usuario seleccione una, o le da la opción de crear una nueva categoría.
+
+4. crearNuevaCategoria
+
+:
+
+Permite al usuario crear una nueva categoría y luego inserta el gasto en la base de datos.
+
+5. insertarGasto
+
+:
+
+Inserta un nuevo gasto en la base de datos, asociándolo a un grupo y categoría específicos.
+
+6. quitargasto
+
+:
+
+Muestra opciones para eliminar un gasto específico o un grupo de gastos.
+
+7. especificoM
+
+:
+
+Permite al usuario eliminar un gasto específico dentro de un grupo de gastos.
+
+8. eliminarGrupoM
+
+:
+
+Elimina un grupo de gastos y todos los gastos asociados a él.
+
+9. listarGastos
+
+:
+
+Lista todos los gastos de un chat, mostrando detalles como el grupo y la categoría.
+
+10. cerrarGasto
+
+:
+
+Cierra un grupo de gastos, marcándolo como cerrado en la base de datos, y ofrece opciones para exportar o eliminar el grupo.
+
+11. modificarGasto
+
+:
+
+Muestra los grupos de gastos abiertos para que el usuario pueda añadir un gasto a uno de ellos.
+
+12. exportarYEliminarGrupoGastos
+
+:
+
+Exporta los gastos de un grupo a un archivo Excel y luego elimina el grupo y sus gastos de la base de datos.
+
+13. exportarGrupoGastos
+
+:
+
+Exporta los gastos de un grupo a un archivo Excel sin eliminar el grupo.
+
+14. registrarUsuario
+
+:
+
+Registra un usuario en la base de datos o actualiza su nombre si ya existe.
+
+15. almacenarInfoEncuesta
+
+:
+
+Almacena la información de una encuesta de participación en un grupo de gastos y cierra la encuesta después de un tiempo.
+
+16. invitarAGastoGrupo
+
+:
+
+Envía una encuesta a los usuarios para que indiquen si quieren participar en un grupo de gastos.
+
+17. obtenerOCrearUsuario
+
+:
+
+Obtiene un usuario de la base de datos o lo crea si no existe.
+
+18. crearGastoGrupo
+
+:
+
+Crea un nuevo grupo de gastos en la base de datos.
+
+19. anadirGastoAlGrupo
+
+:
+
+Añade un gasto a un grupo existente en la base de datos.
+
+20. cerrarYCalcularGastoGrupo
+
+:
+
+Cierra un grupo de gastos, calcula las divisiones necesarias entre los participantes y envía un resumen.
+
+21. calcularTransferencias
+
+:
+
+Calcula las transferencias necesarias entre los participantes de un grupo de gastos para saldar las deudas.
+
+22. obtenerGastosPorCategoria
+
+:
+
+Obtiene los gastos agrupados por categoría para un chat específico.
+
+23. crearGraficoCircular
+
+:
+
+Crea un gráfico circular de los gastos por categoría utilizando chartjs-to-image
+
+.
+
+24. comandos de bot
+
+:
+
+Hay varios comandos de bot (/start
+
+, /help
+
+, /anadirgasto
+
+, etc.) que manejan interacciones específicas con el usuario, como mostrar menús, listar gastos, y más.
+
+Puedes usar estas descripciones para documentar cada función en tu archivo de código, lo cual ayudará a mantener el código más legible y fácil de mantener.

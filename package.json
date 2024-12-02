@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "axios": "^1.7.8",
+    "chartjs-to-image": "^1.2.2",
+    "cheerio": "^1.0.0",
+    "grammy": "^1.24.1",
+    "mysql2": "^3.10.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "xlsx": "^0.18.5",
+    "yahoo-finance2": "^2.13.2"
+  }
+}
